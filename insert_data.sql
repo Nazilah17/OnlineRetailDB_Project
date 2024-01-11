@@ -22,7 +22,7 @@ INSERT INTO product (name, category, price, image_path, description) VALUES
 ('Gaming Console', 'Electronics', 4499850, 'images/console.jpg', 'Latest gaming console with high-resolution graphics'),
 ('Smart Watch', 'Electronics', 2999850, 'images/watch.jpg', 'Fitness tracker with heart rate monitoring');
 
-INSERT INTO order (customer_id, product_id, quantity, order_date) VALUES
+INSERT INTO `order` (customer_id, product_id, quantity, order_date) VALUES
 (1, 1, 1, '2024-01-10'),
 (2, 3, 1, '2024-01-11'),
 (3, 5, 3, '2024-01-12'),
@@ -32,4 +32,9 @@ INSERT INTO order (customer_id, product_id, quantity, order_date) VALUES
 (2, 7, 2, '2024-01-16'),
 (3, 8, 1, '2024-01-17'),
 (4, 10, 1, '2024-01-18'),
-(5, 9, 2, '2024-01-19');
+(5, 9, 2, '2024-01-19'),
+(6, 1, 1, '2024-02-01'),
+(6, 2, 1, '2024-02-01'),
+(8, 3, 1, '2024-02-02'),
+(8, 4, 1, '2024-02-02'),
+(8, 5, 1, '2024-02-02');
